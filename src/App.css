@@ -10,7 +10,9 @@ label {
 }
 
 input[type='text'],
-input[type='email'] {
+input[type='email'],
+textarea,
+select {
   display: block;
   width: 400px;
   padding: 6px 12px;
@@ -21,6 +23,7 @@ input[type='email'] {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
+  margin: 0;
 }
 
 .form-control {
